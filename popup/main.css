@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+.overlay {
+    /* 画面いっぱいに表示 */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+    /* 他コンテンツより表示優先度を上げる */
+    z-index: 10000;
+    
+    display: none;
+    
+    background-color: rgba(0, 0, 0, 0.8);
+    
+    cursor: pointer;
+}
+
+.popup-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 60px;
+    height: 60px;
+    margin-top: -30px;
+    margin-left: -30px;
+    text-align: center;
+    
+    padding: 4px;
+    background-color: #CCC;
+}
+

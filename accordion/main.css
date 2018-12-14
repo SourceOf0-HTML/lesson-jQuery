@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+body {
+  color: #3F4548;
+}
+
+.accordion-title {
+  margin: 0;
+  border: 1px solid #CCC;
+  background-color: #F0F0F0;
+  font-size: 1rem;
+}
+
+.accordion-title a {
+  display: block;
+  padding: 6px;
+  color: #3F4548;
+  text-decoration: none;
+}
+
+.accordion-content {
+  display: none;
+  
+  height: 60px;
+  padding: 12px 6px;
+  border: 1px solid #CCC; 
+}
+
+.accordion-content.accordion-content-active {
+  display: block;
+}
